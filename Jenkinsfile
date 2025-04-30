@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     stages {
+        // This is the build stage
         stage('Build') {
             agent {
                 docker {
